@@ -25,6 +25,7 @@ The code we used to generate the data is in [src/generate_data.py](src/generate_
 The [scripts](scripts/) directory contains the configurations for the datasets we used in our paper.
 - Multi-turn conversations: [scripts/generate_multi_turn_data.sh](scripts/generate_multi_turn_data.sh)
 - Single-turn conversations, varying the amount of repetition in the copying segments: [scripts/generate_single_turn_data.sh](scripts/generate_single_turn_data.sh)
+
 The datasets we used in our experiments can also be downloaded directly from HuggingFace via this link: https://huggingface.co/datasets/danf0/eliza.
 
 ## Training models
