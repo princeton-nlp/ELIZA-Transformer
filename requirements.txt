@@ -1,0 +1,8 @@
+numpy
+pandas
+scipy
+seaborn
+tokenizers
+torch
+tqdm
+transformers
