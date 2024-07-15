@@ -25,6 +25,7 @@ The code we used to generate the data is in [src/generate_data.py](src/generate_
 The [scripts](scripts/) directory contains the configurations for the datasets we used in our paper.
 - Multi-turn conversations: [scripts/generate_multi_turn_data.sh](scripts/generate_multi_turn_data.sh)
 - Single-turn conversations, varying the amount of repetition in the copying segments: [scripts/generate_single_turn_data.sh](scripts/generate_single_turn_data.sh)
+The datasets we used in our experiments can also be downloaded directly from HuggingFace via this link: https://huggingface.co/datasets/danf0/eliza.
 
 ## Training models
 
@@ -50,6 +51,7 @@ To run this analysis with the configuration used in the paper, see [scripts/run_
 
 We generated counterfactual datasets to examine the memory mechanisms learned by the models we trained.
 The code for generating these datasets is in [src/counterfactuals.py](src/counterfactuals.py).
+The datasets we used in our experiments can also be downloaded directly from HuggingFace (see https://huggingface.co/datasets/danf0/eliza).
 After generating a counterfactual dataset, a model can be evaluated using [src/run.py](src/run.py), using the `--eval_only` flag.
 
 ## Questions?
