@@ -1,8 +1,8 @@
 # Representing Rule-based Chatbots with Transformers
 
-This repository contains the code for our paper, Representing Rule-based Chatbots with Transformers.
+This repository contains the code for our paper, [Representing Rule-based Chatbots with Transformers](https://arxiv.org/abs/2407.10949).
 The code can be used to generate synthetic ELIZA training data, train and evaluate Transformers on ELIZA transcripts, and conduct some analysis of the learned mechanisms.
-Please see our paper for more details.
+Please see [our paper](https://arxiv.org/abs/2407.10949) for more details.
 
 ## Quick links
 * [Setup](#Setup)
