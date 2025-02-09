@@ -61,9 +61,10 @@ If you have any questions about the code or paper, please email Dan (dfriedman@c
 
 ## Citation
 ```bibtex
-@article{friedman2024representing,
-  title={Representing Rule-based Chatbots with Transformers},
-  author={Friedman, Dan and Panigrahi, Abhishek and Chen, Danqi},
-  year={2024}
+@inproceedings{friedman2025representing,
+   title={Representing Rule-based Chatbots with Transformers},
+   author={Dan Friedman and Abhishek Panigrahi and Danqi Chen},
+   booktitle={North American Association for Computational Linguistics (NAACL)},
+   year={2025}
 }
 ```
